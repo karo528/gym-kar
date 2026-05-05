@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gym Kar</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar">
+        <h1 class="logo">Gym Kar</h1>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#rutinas">Rutinas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">☰</div>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section id="inicio" class="hero">
+    <div class="hero-content">
+        <h2>Transforma tu cuerpo</h2>
+        <p>Entrena con Gym Kar</p>
+        <a href="#rutinas" class="btn">Comenzar</a>
+    </div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios" class="section">
+    <h2>Servicios</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="assets/img/servicio1.jpg">
+            <h3>Entrenamiento Personal</h3>
+        </div>
+        <div class="card">
+            <img src="assets/img/servicio2.jpg">
+            <h3>Clases Grupales</h3>
+        </div>
+        <div class="card">
+            <img src="assets/img/servicio3.jpg">
+            <h3>Plan Nutricional</h3>
+        </div>
+    </div>
+</section>
+
+<!-- RUTINAS -->
+<section id="rutinas" class="section">
+    <h2>Rutinas</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="assets/img/cardio.jpg">
+            <h3>Cardio</h3>
+            <button onclick="mostrar('cardio')">Ver</button>
+        </div>
+        <div class="card">
+            <img src="assets/img/fuerza.jpg">
+            <h3>Fuerza</h3>
+            <button onclick="mostrar('fuerza')">Ver</button>
+        </div>
+        <div class="card">
+            <img src="assets/img/estiramiento.jpg">
+            <h3>Estiramiento</h3>
+            <button onclick="mostrar('estiramiento')">Ver</button>
+        </div>
+    </div>
+    <p id="resultado"></p>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="section contacto">
+    <h2>Contacto</h2>
+    <p>Email: gymkar@email.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Gym Kar</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
